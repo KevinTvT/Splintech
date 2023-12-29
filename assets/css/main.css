@@ -231,6 +231,8 @@ input, select, textarea {
 
 	h3 {
 		font-size: 0.875rem;
+		margin: 0 0 2.5rem 0;
+
 	}
 
 	h4 {
@@ -259,6 +261,7 @@ input, select, textarea {
 
 		h3 {
 			font-size: 0.9rem;
+			line-height: 2.1;
 		}
 
 		h4 {
@@ -2348,6 +2351,12 @@ input, select, textarea {
 		}
 
 /* Image */
+	.profileImage {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
+	}
 
 	.image {
 		border: 0;
@@ -3299,11 +3308,11 @@ input, select, textarea {
 				width: 2px;
 			}
 
-			#wrapper > section > header h1, #wrapper > section > header h2 {
+			#wrapper > section > header h1, #wrapper > section > header h2, #wrapper > section > header h3 {
 				position: relative;
 			}
 
-				#wrapper > section > header h1:before, #wrapper > section > header h2:before {
+				#wrapper > section > header h1:before, #wrapper > section > header h2:before, #wrapper > section > header h3:before {
 					background: #43d9b8;
 					content: '';
 					display: block;
@@ -3312,7 +3321,7 @@ input, select, textarea {
 					top: 1rem;
 				}
 
-				#wrapper > section > header h1:after, #wrapper > section > header h2:after {
+				#wrapper > section > header h1:after, #wrapper > section > header h2:after, #wrapper > section > header h3:after {
 					background: #43d9b8;
 					border-radius: 0.5rem;
 					content: '';
@@ -3415,12 +3424,12 @@ input, select, textarea {
 			left: calc(50vw - 5rem);
 		}
 
-		#wrapper > section > header h1:before, #wrapper > section > header h2:before {
+		#wrapper > section > header h1:before, #wrapper > section > header h2:before, #wrapper > section > header h3:before {
 			right: -5rem;
 			width: 2.5rem;
 		}
 
-		#wrapper > section > header h1:after, #wrapper > section > header h2:after {
+		#wrapper > section > header h1:after, #wrapper > section > header h2:after, #wrapper > section > header h3:after {
 			right: -2.5rem;
 		}
 
@@ -3488,12 +3497,12 @@ input, select, textarea {
 					left: calc(50vw - 4rem);
 				}
 
-				#wrapper > section > header h1:before, #wrapper > section > header h2:before {
+				#wrapper > section > header h1:before, #wrapper > section > header h2:before, #wrapper > section > header h3:before {
 					right: -4rem;
 					width: 2rem;
 				}
 
-				#wrapper > section > header h1:after, #wrapper > section > header h2:after {
+				#wrapper > section > header h1:after, #wrapper > section > header h2:after, #wrapper > section > header h3:after {
 					right: -2rem;
 				}
 
